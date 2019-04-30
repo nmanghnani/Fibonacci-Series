@@ -19,7 +19,7 @@ int main()
       first = second;
       second = next;
     }
-    printf("%d\n", next);
+    printf("%d\n", Type next);
   }
  
   return 0;
