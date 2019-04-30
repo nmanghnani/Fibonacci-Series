@@ -2,17 +2,17 @@
  
 int main()
 {
-  int n, first = 0, second = 1, next, c;
+  int n, first = 0, second = 1, next, F;
  
   printf("Enter the number of terms\n");
   scanf("%d", &n);
  
   printf("First %d terms of Fibonacci series are:\n", n);
  
-  for (c = 0; c < n; c++)
+  for (F = 0; F < n; F++)
   {
-    if (c <= 1)
-      next = c;
+    if (F <= 1)
+      next = F;
     else
     {
       next = first + second;
